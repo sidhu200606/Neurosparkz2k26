@@ -137,7 +137,8 @@ Mathusri.S
               className="flex items-center gap-2 hover:text-cyan-400 transition"
             >
               <Phone className="w-4 h-4" />
-              +91 7530076406
+              +91 7530076406 <br/>
+              +91 9488331959
             </a>
 
             <a
