@@ -216,6 +216,7 @@ export const onlineEvents = [
     venue: "Online Custom Room",
     time: "3:00 PM - 5:00 PM",
     coordinators: [
+       { name: "Vishnu Priyan<k", phone: "+91 8610630387" },
            { name: "Muthuganesh.s", phone: "+91 9361020254" },
            { name: "Ashok.M", phone: "+91 8610630387" },
     ],
