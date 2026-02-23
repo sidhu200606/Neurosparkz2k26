@@ -63,13 +63,13 @@ export const technicalEvents = [
     description: "Embedded simulation and microcontroller based challenge.",
     details: "Simulation-based Arduino & ESP projects using Wokwi platform.",
     icon: Cpu,
-    venue: "Lab 2",
-    time: "10:00 AM - 3:00 PM",
+    venue: "DSP LAB",
+    time: "11:30 AM - 12:00 PM",
     coordinators: [
       { name: "Suresh Kumar.P", phone: "+91 9344243833" },
       { name: "Mohammad Asan", phone: "+91 6381416393" },
       { name: "Raja Lakshmi.M" },
-      { name: "Kavitha.S" },
+      { name: "Kavitha.K" },
      
     ],
     rules: [
