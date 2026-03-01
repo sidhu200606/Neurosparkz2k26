@@ -348,14 +348,15 @@ const years = ["1st Year", "2nd Year", "3rd Year", "4th Year"];
 const foodOptions = ["Veg", "Non-Veg"];
 const events = [
   "Project Presentation",
-  "Circuit Debugging",
-  "Wokwi",
-  "Tech Quiz",
+  "Bug Blast",
+  "CodeCircuit(WOKWI)",
+  "Techno Quest",
   "Connection",
-  "Missing Line",
+  "Echo the Line",
   "Chess",
-  "Two Truth One Lie",
+  "Truth vs Trick",
   "Photography",
+  "Codes without Coding",
   "FreeFire",
 ];
 
@@ -606,7 +607,7 @@ export default function RegisterForm() {
               <div className="p-4 sm:p-6 rounded-xl border border-sky-400/30 bg-black/40">
                 <div className="flex items-center justify-center gap-2 mb-4 text-sky-300 font-bold text-lg tracking-wide">
                   <CreditCard className="w-5 h-5 text-sky-400" />
-                  Registration Fee ₹200
+                  Registration Fee ₹200 : +91 8825666279
                 </div>
 
                 <img src={gpayQr} alt="QR" className="w-40 sm:w-48 mx-auto rounded-lg mb-6" />

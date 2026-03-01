@@ -18,7 +18,7 @@ export const technicalEvents = [
     description:
       "Participants will present their innovative hardware or software projects before a panel of judges. The event evaluates creativity, technical knowledge, practical implementation, and presentation skills.",
     details:
-      "Team Size: 1–3 members,Time Limit: 8–10 minutes presentation + 2–3 minutes Q&A,Domain: Open to all ECE / technical domains",
+      "Team Size: 1–3 members | Time Limit: 8–10 minutes presentation + 2–3 minutes Q&A | Domain: Open to all ECE / technical domains",
     icon: Presentation,
     venue: "Seminar Hall",
     time: "10:00 AM - 11:00 AM",
@@ -29,39 +29,40 @@ export const technicalEvents = [
       { name: "Maha.S" },
     ],
     rules: [
-      "Team of 2 members",
-      "Components provided",
-      "No external devices",
-      "3 rounds elimination",
+      "Team of 1–3 members",
+      "Working model or PPT required",
+      "Time limit strictly followed",
+      "Judges decision final",
     ],
   },
   {
     title: "Bug Blast",
     description:
-      "Participants must identify and correct errors in a given faulty electronic circuit within a limited time. The event tests practical knowledge, troubleshooting skills, and core electronics concepts.",
+      "Participants must identify and correct errors in a given faulty electronic circuit within a limited time.",
     details:
-      "Multi-round coding competition,Team Size: 1–2 members",
+      "Team Size: 1–2 members | Troubleshooting based challenge",
     icon: Code,
     venue: "Micro Controller LAB",
     time: "11:00 AM - 11:30 AM",
     coordinators: [
-      { name: "Vairamuthu Pandi.j", phone: "+91 9655695497" },
+      { name: "Vairamuthu Pandi.J", phone: "+91 9655695497" },
       { name: "Karthick", phone: "+91 8124167507" },
       { name: "Alagu Lakshmi" },
       { name: "Anitha.S" },
-      
     ],
     rules: [
-      "Individual participation",
-      "Languages: C, Python, MATLAB",
-      "Internet restricted",
-      "2 rounds - 90 min each",
+      "Individual or team of 2",
+      "Components provided",
+      "No external devices allowed",
+      "Time-based evaluation",
     ],
   },
   {
     title: "CodeCircuit",
-    description: "Embedded simulation and microcontroller based challenge.",
-    details: "Simulation-based Arduino & ESP projects using Wokwi platform.",
+    description:
+      "Embedded simulation and microcontroller based challenge.",
+    details:
+      "Simulation-based Arduino & ESP projects using Wokwi platform.",
     icon: Cpu,
     venue: "DSP LAB",
     time: "11:30 AM - 12:00 PM",
@@ -70,26 +71,26 @@ export const technicalEvents = [
       { name: "Mohammad Asan", phone: "+91 6381416393" },
       { name: "Raja Lakshmi.M" },
       { name: "Kavitha.K" },
-     
     ],
     rules: [
-      "Team of 3-4 members",
-      "Simulation based",
+      "Team of 3–4 members",
+      "Simulation based challenge",
       "No external help",
       "Time limit applies",
     ],
   },
   {
     title: "Techno Quest",
-    description: "Electronics & technology based competitive quiz.",
+    description:
+      "Electronics & technology based competitive quiz.",
     details:
       "Buzzer-based quiz covering electronics fundamentals and tech trends.",
     icon: BrainCircuit,
-    venue: "2nd YEAR CLASS",
+    venue: "2nd Year Class",
     time: "12:00 PM - 12:30 PM",
     coordinators: [
       { name: "Vignesh Kumar.K", phone: "+91 7418612830" },
-      { name: "Hemalatha.N",phone: "+91 8608537624" },
+      { name: "Hemalatha.N", phone: "+91 8608537624" },
       { name: "Kaleeswari.M" },
       { name: "Mathesh Kumar" },
     ],
@@ -106,59 +107,59 @@ export const technicalEvents = [
 export const nonTechnicalEvents = [
   {
     title: "Connection",
-    description: "Present your ideas on Merging",
+    description: "Present your ideas on merging concepts.",
     details:
-      "4 clues will be displayed,Participants must identify the common link,Images will be shown,Identify what connects them.",
+      "4 clues will be displayed | Identify the common link | Images will be shown",
     icon: Mic,
-    venue: "2nd Year class",
-    time: "1:30 PM - 2:00PM",
+    venue: "2nd Year Class",
+    time: "1:30 PM - 2:00 PM",
     coordinators: [
-      { name: "Ranjith.S", phone: "+91 94883 31959" },
+      { name: "Ranjith.S", phone: "+91 9488331959" },
       { name: "Solai Raj", phone: "+91 7548890466" },
       { name: "Janani.P" },
-      { name: "Muthu Priya"  },
+      { name: "Muthu Priya" },
     ],
     rules: [
       "Individual or team of 2",
-      "Quick 30-second challenge.",
-      "Most correct answers wins"
-      
+      "Quick 30-second challenge",
+      "Most correct answers win",
     ],
   },
   {
     title: "Echo the Line",
-    description: "Popular Tamil / English songs.",
-    details: "Slightly tricky or fast songs.",
+    description: "Popular Tamil / English songs challenge.",
+    details:
+      "Song will stop suddenly | Participants must continue the next line",
     icon: Palette,
     venue: "3rd Year Class",
     time: "2:00 PM - 2:30 PM",
     coordinators: [
-       { name: "Vishnu Priyan.K", phone: "+91 9360984207" },
-      { name: "Yuvaraj", phone: "+91 8270996515 " },
-      { name: "Krishna Priya.k" },
-      { name: "Maha Lakshmi"  },
+      { name: "Vishnu Priyan.K", phone: "+91 9360984207" },
+      { name: "Yuvaraj", phone: "+91 8270996515" },
+      { name: "Krishna Priya.K" },
+      { name: "Maha Lakshmi" },
     ],
     rules: [
-      "Each team can have 1–2 participants.",
-      "Slightly tricky or fast songs",
+      "Individual or team of 2",
       "Theme revealed on spot",
+      "Judges decision final",
     ],
   },
   {
     title: "Chess",
     description: "Strategic thinking battle.",
-    details: "Classic chess tournament.",
+    details: "Classic chess knockout tournament.",
     icon: Crown,
-    venue: "3rd Year class",
+    venue: "3rd Year Class",
     time: "2:30 PM - 3:00 PM",
     coordinators: [
- { name: "Muthuganesh.s", phone: "+91 9361020254" },
+      { name: "Muthuganesh.S", phone: "+91 9361020254" },
       { name: "Ashok.M", phone: "+91 8610630387" },
       { name: "Muthu Lakshmi" },
-      { name: "Anusri.M"  },
+      { name: "Anusri.M" },
     ],
     rules: [
-      "Individual participationIndividual or team of 2",
+      "Individual participation",
       "Knockout format",
       "Time controlled",
     ],
@@ -168,13 +169,13 @@ export const nonTechnicalEvents = [
     description: "Fun interactive team game.",
     details: "Identify the lie among two truths.",
     icon: Smile,
-    venue: "#rd Year Class",
+    venue: "3rd Year Class",
     time: "3:30 PM - 4:00 PM",
     coordinators: [
       { name: "Harihara Sudhan.A", phone: "+91 7904281768" },
       { name: "Muniya Samy.P", phone: "+91 8220792798" },
-       { name: "Madhumathi" },
-       { name: "Gayathri.B" }
+      { name: "Madhumathi" },
+      { name: "Gayathri.B" },
     ],
     rules: [
       "Team of 2 members",
@@ -188,8 +189,7 @@ export const nonTechnicalEvents = [
 export const onlineEvents = [
   {
     title: "Photography",
-    description:
-      "Capture your creativity through the lens.",
+    description: "Capture your creativity through the lens.",
     details:
       "Submit original photographs based on the given theme. Judged on creativity, clarity, and storytelling.",
     icon: Camera,
@@ -206,39 +206,40 @@ export const onlineEvents = [
       "Theme will be announced",
     ],
   },
-{
+  {
     title: "Codes without Coding",
     description:
-      "In this event, participants decode situations, understand patterns, and make smart decisions without writing a single line of code. It’s not about computers… it’s about connection, clarity, and creativity.",
+      "Decode situations, understand patterns, and make smart decisions without writing a single line of code.",
     details:
-      "Crack hidden life “codes” through smart thinking, pattern spotting, and perfect decisions — no typing, just pure brain power. 💡",
+      "Crack hidden life codes through smart thinking and pattern spotting — no typing, just brain power.",
+    icon: Code,
     venue: "3rd Year Class",
     time: "Afternoon",
     coordinators: [
       { name: "Deepika.R", phone: "+91 8220792798" },
       { name: "Mathusri.B", phone: "+91 7530076406" },
-      { name: "Irulajothi",},
-      { name: "Archana.M",}
+      { name: "Irulajothi" },
+      { name: "Archana.M" },
     ],
     rules: [
-      "Team of 1-3 participants",
-      "Participants should not exceed the given instructions or round limits",
+      "Individual participation only",
+      "No electronic gadgets allowed",
+      "Time limit must be strictly followed",
+      "Participants should not exceed given instructions",
     ],
   },
-
   {
     title: "Free Fire",
-    description:
-      "Online battle royale gaming tournament.",
+    description: "Online battle royale gaming tournament.",
     details:
       "Teams compete in custom Free Fire rooms. Top surviving teams qualify for final round.",
     icon: Gamepad2,
     venue: "Online Custom Room",
     time: "3:00 PM - 5:00 PM",
     coordinators: [
-       { name: "Vishnu Priyan<k", phone: "+91 8610630387" },
-           { name: "Muthuganesh.s", phone: "+91 9361020254" },
-           { name: "Ashok.M", phone: "+91 8610630387" },
+      { name: "Vishnu Priyan.K", phone: "+91 8610630387" },
+      { name: "Muthuganesh.S", phone: "+91 9361020254" },
+      { name: "Ashok.M", phone: "+91 8610630387" },
     ],
     rules: [
       "Squad of 4 players",
