@@ -16,9 +16,9 @@ export const technicalEvents = [
   {
     title: "Project Presentation",
     description:
-      "Design and debug complex electronic circuits under time pressure. Test your fundamentals!",
+      "Participants will present their innovative hardware or software projects before a panel of judges. The event evaluates creativity, technical knowledge, practical implementation, and presentation skills.",
     details:
-      "Participants will be given faulty circuits and must identify and fix errors within the time limit.",
+      "Team Size: 1–3 members,Time Limit: 8–10 minutes presentation + 2–3 minutes Q&A,Domain: Open to all ECE / technical domains",
     icon: Presentation,
     venue: "Seminar Hall",
     time: "10:00 AM - 11:00 AM",
@@ -36,18 +36,18 @@ export const technicalEvents = [
     ],
   },
   {
-    title: "Circutrix",
+    title: "Bug Blast",
     description:
-      "Competitive programming challenge focusing on embedded systems and signal processing algorithms.",
+      "Participants must identify and correct errors in a given faulty electronic circuit within a limited time. The event tests practical knowledge, troubleshooting skills, and core electronics concepts.",
     details:
-      "Multi-round coding competition covering C/Embedded C and DSP challenges.",
+      "Multi-round coding competition,Team Size: 1–2 members",
     icon: Code,
-    venue: "DSP LAB",
+    venue: "Micro Controller LAB",
     time: "11:00 AM - 11:30 AM",
     coordinators: [
       { name: "Vairamuthu Pandi.j", phone: "+91 9655695497" },
       { name: "Karthick", phone: "+91 8124167507" },
-      { name: "Anusri.M" },
+      { name: "Alagu Lakshmi" },
       { name: "Anitha.S" },
       
     ],
@@ -59,7 +59,7 @@ export const technicalEvents = [
     ],
   },
   {
-    title: "Wokwi",
+    title: "CodeCircuit",
     description: "Embedded simulation and microcontroller based challenge.",
     details: "Simulation-based Arduino & ESP projects using Wokwi platform.",
     icon: Cpu,
@@ -80,12 +80,12 @@ export const technicalEvents = [
     ],
   },
   {
-    title: "Tech Quiz",
+    title: "Techno Quest",
     description: "Electronics & technology based competitive quiz.",
     details:
       "Buzzer-based quiz covering electronics fundamentals and tech trends.",
     icon: BrainCircuit,
-    venue: "Communication Systems Lab",
+    venue: "2nd YEAR CLASS",
     time: "12:00 PM - 12:30 PM",
     coordinators: [
       { name: "Vignesh Kumar.K", phone: "+91 7418612830" },
@@ -106,7 +106,7 @@ export const technicalEvents = [
 export const nonTechnicalEvents = [
   {
     title: "Connection",
-    description: "Present your ideas on emerging ECE technologies.",
+    description: "Present your ideas on Merging",
     details:
       "4 clues will be displayed,Participants must identify the common link,Images will be shown,Identify what connects them.",
     icon: Mic,
@@ -126,7 +126,7 @@ export const nonTechnicalEvents = [
     ],
   },
   {
-    title: "Missing Line",
+    title: "Echo the Line",
     description: "Popular Tamil / English songs.",
     details: "Slightly tricky or fast songs.",
     icon: Palette,
@@ -155,7 +155,7 @@ export const nonTechnicalEvents = [
  { name: "Muthuganesh.s", phone: "+91 9361020254" },
       { name: "Ashok.M", phone: "+91 8610630387" },
       { name: "Muthu Lakshmi" },
-      { name: "Alagu Lakshmi"  },
+      { name: "Anusri.M"  },
     ],
     rules: [
       "Individual participationIndividual or team of 2",
@@ -164,7 +164,7 @@ export const nonTechnicalEvents = [
     ],
   },
   {
-    title: "Two Truth One Lie",
+    title: "Truth vs Trick",
     description: "Fun interactive team game.",
     details: "Identify the lie among two truths.",
     icon: Smile,
@@ -177,7 +177,7 @@ export const nonTechnicalEvents = [
        { name: "Gayathri.B" }
     ],
     rules: [
-      "Team of 4 members",
+      "Team of 2 members",
       "All members participate",
       "Time-based elimination",
     ],
@@ -206,6 +206,26 @@ export const onlineEvents = [
       "Theme will be announced",
     ],
   },
+{
+    title: "Codes without Coding",
+    description:
+      "In this event, participants decode situations, understand patterns, and make smart decisions without writing a single line of code. It’s not about computers… it’s about connection, clarity, and creativity.",
+    details:
+      "Crack hidden life “codes” through smart thinking, pattern spotting, and perfect decisions — no typing, just pure brain power. 💡",
+    venue: "3rd Year Class",
+    time: "Afternoon",
+    coordinators: [
+      { name: "Deepika.R", phone: "+91 8220792798" },
+      { name: "Mathusri.B", phone: "+91 7530076406" },
+      { name: "Irulajothi",},
+      { name: "Archana.M",}
+    ],
+    rules: [
+      "Team of 1-3 participants",
+      "Participants should not exceed the given instructions or round limits",
+    ],
+  },
+
   {
     title: "Free Fire",
     description:

@@ -133,7 +133,7 @@ Mathusri.S
             </a>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+917530076406"
               className="flex items-center gap-2 hover:text-cyan-400 transition"
             >
               <Phone className="w-4 h-4" />
@@ -158,7 +158,7 @@ Mathusri.S
             <div className="flex items-center gap-2">
               <Code2 className="w-3 h-3" />
               Developed by
-              <span className="text-white font-semibold">Sidharthan R.C</span>
+              <span className="text-white font-semibold">ECE DEPARTMENT</span>
             </div>
           </div>
 
